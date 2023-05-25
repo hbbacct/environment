@@ -1,0 +1,128 @@
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .1rem;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-container {
+  flex-basis: 70%;
+  max-width: 350px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  flex-basis: 30%;
+  justify-content: flex-end;
+  margin-bottom: -12px;
+}
+
+
+.dropdown {
+  position: relative;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #f9fafb;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 0.35rem;
+  text-decoration: none;
+  color: #1f2937;
+  font-size: 22px;
+}
+
+.dropdown-content a:hover {
+  background-color: #edf2f7;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Increase .dropbtn font size */
+.dropbtn {
+  font-size: 18px;
+  
+}
+
+
+.signup-container {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-container label {
+  display: block;
+  font-size: 28px; /* Adjusted font size */
+  margin-bottom: 10px;
+}
+
+.signup-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px; /* Adjusted font size */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.signup-container button {
+  padding: 10px 20px;
+  font-size: 20px; /* Adjusted font size */
+  background-color: #29aae3;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.signup-container button:hover {
+  background-color: #47c9f0;
+}
+
+.response-box {
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 20px; /* Adjusted font size */
+  color: #333;
+  display: none;
+}
+
+.response-box:not(:empty) {
+  display: block;
+}
+
+a {
+  color: #24ace4;
+}
+

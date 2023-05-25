@@ -1,0 +1,162 @@
+.container {
+  padding: 1px;
+}
+
+.selector {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  border: 1px solid #ccc;
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 55px;
+  
+}
+
+/* Style the select element */
+/* Style the select element */
+/* Style the select element wrapper */
+/* Style the select element wrapper */
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 275px;
+}
+
+/* Style the select element */
+#serviceSelector {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  white-space: normal; /* Allow text to wrap */
+  overflow-wrap: break-word; /* Enable word wrapping */
+}
+
+/* Style the arrow */
+.arrow {
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -20px;
+}
+
+.noServiceBox {
+  padding-top:8px;
+  padding-bottom:8px;
+  
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #000;
+    font-size: 12px; /* Adjust the font size as desired */
+    color: #444;
+    transition: background-color 0.3s;
+    position: relative; /* Added for positioning of text elements */
+    text-align: left; /* Added to left justify the text */
+}
+
+.work-button:hover {
+    background-color: #e6e6e6;
+}
+
+.work-button.selected {
+    font-weight: bold;
+    background-color: #24ace4;
+    color: #fff;
+}
+
+.work-button.selected::after {
+    content: '\2713';
+    float: right;
+    margin-left: 5px;
+}
+
+.main-text {
+    font-size: 18px; /* Adjust the font size as desired */
+    font-weight: bold; /* Optionally set the font weight */
+}
+
+.additional-text {
+    font-size: 12px; /* Adjust the font size as desired */
+    color: #444; /* Optionally set a different color for the additional text */
+    
+}
+
+.additional-text.selected {
+    font-size: 12px; /* Adjust the font size as desired */
+    color: #fff; /* Optionally set a different color for the additional text */
+    
+}
+
+.next-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #24ace4;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 275px;
+}
+
+.next-button:hover {
+    background-color: #1c8ac8;
+}
+
+#questionContainer2 {
+  display: none;
+}
+
+#questionContainer3 {
+  display: none;
+}
+
+#questionContainer4 {
+  display: none;
+}
+
+#questionContainer5 {
+  display: none;
+}
+
+.fixed-bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}

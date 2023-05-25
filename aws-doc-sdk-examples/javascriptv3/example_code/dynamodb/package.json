@@ -1,0 +1,15 @@
+{
+  "name": "dynamodb-examples",
+  "version": "1.0.0",
+  "author": "Corey Pyle <corepyle@amazon.com",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "integration-test": "vitest run **/*.integration.test.js --coverage"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.210.0",
+    "@aws-sdk/lib-dynamodb": "^3.210.0",
+    "libs": "*"
+  }
+}

@@ -1,0 +1,49 @@
+.container {
+  padding: 1px;
+}
+
+.selector {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Style the select element */
+/* Style the select element */
+/* Style the select element wrapper */
+/* Style the select element wrapper */
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 275px;
+}
+
+/* Style the select element */
+#serviceSelector {
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  white-space: normal; /* Allow text to wrap */
+  overflow-wrap: break-word; /* Enable word wrapping */
+}
+
+/* Style the arrow */
+.arrow {
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -20px;
+}
