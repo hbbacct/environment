@@ -1,6 +1,0 @@
-{
-    "require": {
-        "aws/aws-sdk-php": "^3.269",
-        "tomorrow-ideas/plaid-sdk-php": "^0.14.0"
-    }
-}
